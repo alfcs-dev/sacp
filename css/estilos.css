@@ -1,0 +1,166 @@
+/**********************ESTILOS GENERALES*********************************************/
+html,
+body {
+  height: 100%;
+}
+
+body{
+background: url("../img/content_bg.jpg") repeat scroll left top #DDDCE2;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+background-color:#394755;
+color: white;
+}
+/* Contendor principal para poder dejar separado el footer debajo*/
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -90px;
+  /* Pad bottom by footer height */
+  padding: 0 0 90px;
+}
+
+
+/* Poner el footer arreglado */
+footer {
+  height: 90px;
+  background-color: #394755;
+  color: white;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+/*********BARRA PRINCIPAL***********/
+.sidebar-nav {
+    padding: 9px 0;
+}
+/*********FIN BARRA PRINCIPAL***********/
+
+/*****************MENU************************/
+.jumbotron{
+	padding-top:85px;
+	font-size:14px;
+	padding-bottom: 20px;
+	background-color: #394755;
+}
+.menu .navbar-nav > li {
+	width:30%;
+}
+
+.navbar-text.pull-right {
+    float: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu .navbar-nav{
+	width:100%;
+}
+	
+.navbar-nav > li > .dropdown-menu {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	margin-top: 0;
+	width: 100%;
+}	
+#menus > ul > li > a.dropdown-toggle {
+    text-align: center;
+}
+
+.menu{
+	font-size: 14px;
+}
+.nav > li {
+    border-right: 1px solid #E6E6FA;
+    display: block;
+    position: relative;
+}
+
+.menu .navbar {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.dropdown-menu > li > a {
+    clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 3px 20px;
+    white-space: normal;
+}
+/****************FIN MENU*********************/
+/************************************PANELES, GRID Y TABLAS********************************************/
+.panel-primary > .panel-heading {
+    background-color: #394755;
+    border-color: #394755;
+    color: #FFFFFF;
+}
+.panel-primary {
+    border-color: #394755;
+}
+/*********************************FIN PANELES*******************************************/
+
+/*********************************FORMA DE LOGIN***********************************************/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*********************************FIN FORMA DE LOGIN*******************************************/
+
+
+
+/*********************************FIN ESTILOS GENERALES********************************/
+
+
+/*************************ESTILOS POR PANTALLAS***************************************/
+@media  (min-width:1200px) {
+    /* Enable use of floated navbar text */
+
+
+}
+
+
+ @media (min-width:767px) and (max-width: 1200px) {
+
+}
+
+@media (max-width: 767px){
+	.menu .navbar-nav > li {
+		width:100%;
+	}
+}
+/*************************FIN ESTILOS POR PANTALLAS***********************************/
+
