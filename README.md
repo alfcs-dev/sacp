@@ -1,10 +1,12 @@
 S.A.C.P.
 ====
+Personal Training Management System. (S.A.C.P.) Beacuse of spanish acronym.
 
-Sistema de administracion de la capacitacion del personal
+System developed to manage scheduling, evaluation and generate reports of personal training inside a company.
 
-Sistema creado para la adminsitracion de cursos, empleados y reportes sobre los mismos en una empresa
+Created from scrarch using PHP, MySQL, jQuery and Bootstrap 3 as frameworks
 
-alfcastaneda.com/sacp
+http://alfcastaneda.com/sacp
 
-Proyecto para tituluacion
+
+Thesis Degree Project.
